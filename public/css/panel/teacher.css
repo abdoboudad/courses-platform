@@ -1,0 +1,110 @@
+#cards-teacher .all-courses{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    margin-bottom: 20px;
+}
+#cards-teacher .card{
+    background-color: #fff;
+    width: 200px;
+    position: relative;
+    height: 260px;
+    margin: 15px 20px;
+    border-radius: 0.4rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#cards-teacher .card .card-top{
+    background-color: rgb(60, 113, 226);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+}
+#cards-teacher .card .card-top img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 130px;
+}
+#cards-teacher .card .card-body{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10px 0px 10px ;
+    text-align: center;
+}
+#teacher_add{
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 0.4rem;
+    box-shadow: 2px 4px 6px rgb(177, 177, 177);
+    padding: 10px 0;
+}
+#teacher_add .title{
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+#teacher_add h1{
+    padding: 0 40px;
+    padding-bottom: 10px;
+    font-size: 23px;
+}
+#teacher_add form .item{
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+}
+#teacher_add form .item span{
+    display: block;
+}
+#teacher_add form .item input,textarea{
+    width: 100%;
+    margin: auto;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 0.4rem;
+    border: 1px solid rgb(194, 194, 194);
+}
+#teacher_add form .item .image_input{
+    display: none;
+}
+
+#teacher_add form .item .photo_all{
+    display: flex;
+    justify-content: center;
+}
+#teacher_add form .item label{
+    border: 1px solid rgb(105, 105, 105);
+    padding: 1.2rem 20rem;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 0.3rem;
+}
+#teacher_add form .item label i{
+    display: block;
+    font-size: 40px;
+}
+#teacher_add form .item select{
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    background-color: #e2e2e2;
+}
+#teacher_add form .btn{
+    text-align: center;
+    padding: 15px 0;
+}
+#teacher_add form .btn button{
+    width: 170px;
+    padding: 10px 0;
+    border-radius: 0.3rem;
+    border: 0;
+    background-color: #a83333;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.3s;
+}
+#teacher_add form .btn button:hover{
+    background-color: #8b2222;
+}

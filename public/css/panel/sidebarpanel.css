@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    font-size: 17px;
+}
+.down{
+    display: none;
+}
+#header{
+    display: flex;
+}
+#right{
+    width: 100%;
+}
+#sidebar{
+    height: 100vh;
+    width: 300px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgba(27, 28, 36, 0.897);
+}
+#sidebar .title{
+    display: flex;
+    align-items: center;
+    height: 140px;
+    padding: 0px 30px;
+}
+#sidebar .title h4{
+    color: rgb(198, 198, 214);
+    padding: 0 10px;
+}
+#sidebar .title i{
+    font-size: 18px;
+}
+#sidebar .items a{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(177, 177, 173);
+}
+#sidebar .items .item{
+    padding: 20px 20px;
+}
+#sidebar .items .item span{
+    padding: 0px 4px;
+}
+#sidebar .items .item:hover{
+    background-color: rgba(39, 40, 46, 0.897);
+    color: rgb(218, 218, 216);
+}
+
+#navbar{
+    background-color: rgb(236, 237, 241);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 25px 20px;
+    box-shadow: 2px 2px 5px rgb(167, 167, 167);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#sidebar .categorie_click{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+#sidebar .down{
+    padding: 0px 40px;
+    transition: 0.4s all;
+}
+#sidebar .down .domain{
+    padding: 5px 0px;
+}
+#sidebar .down .domain span{
+    padding: 10px 5px;
+}
+#sidebar .down .domain span:hover{
+    color: #fff;
+}
+#sidebar .categorie_click .fa-caret-up{
+    display: none;
+}
+#navbar .elements{
+    padding: 0 20px;
+}
+#navbar .elements i{
+    font-size: 18px;
+    padding: 0 10px;
+    color: rgba(73, 73, 77, 0.897);
+    transition: 0.4s;
+}
+#navbar .elements span{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px 0;
+}
